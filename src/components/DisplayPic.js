@@ -39,7 +39,7 @@ console.log(this.state.data)
         <div className="row">
         <div className="col s12"><p style={{textAlign: "justify"}}>{this.state.data.explanation}</p></div>
         </div>
-        <div className="row"><p>Built with Materialize.css and the <a href="https://api.nasa.gov/index.html">NASA API.</a></p></div>
+        <div className="row"><p>Built with Materialize.css, <a href="http://vincentgarreau.com/particles.js/">ParticlesJs</a> and the <a href="https://api.nasa.gov/index.html">NASA API.</a></p></div>
         </div>
         </div>
       )

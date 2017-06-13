@@ -5,7 +5,7 @@ export default function() {
     <div style={{
       left: "0",
     lineHeight: "200px",
-    marginTop: "25%",
+    marginTop: "40vh",
     position: "absolute",
     textAlign: "center",
     top:"50%",
