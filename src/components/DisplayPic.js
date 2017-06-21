@@ -26,7 +26,7 @@ export default class DisplayPic extends Component {
     if (this.state.data) {
 console.log(this.state.data)
       return (
-        <div className="container" style={{borderRadius:"10px", transition: "0.5s", backgroundColor: '#fafafa'}}>
+        <div className="container" style={{ boxShadow: "0px 5px 7px -2px rgba(0, 0, 0, 0.4)", borderRadius:"10px", transition: "0.5s", backgroundColor: '#fafafa'}}>
         <div className="container" style={{marginTop:"25px"}}>
         <a style={{ cursor: "pointer" }} href={this.state.data.hdurl}><img style={{marginTop:"15px"}} className="responsive-img" alt="" src={this.state.data.url} /></a>
         </div>
