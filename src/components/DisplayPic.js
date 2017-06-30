@@ -31,7 +31,7 @@ console.log(this.state.data)
         <a style={{ cursor: "pointer" }} href={this.state.data.hdurl}><img style={{marginTop:"15px"}} className="responsive-img" alt="" src={this.state.data.url} /></a>
         </div>
         <div className="container">
-        <h2 style={{fontWeight: "bold"}}>{this.state.data.title.toUpperCase()}</h2>
+        <h3 style={{fontWeight: "bold"}}>{this.state.data.title.toUpperCase()}</h3>
         <div className="row">
         <div className="col s3"><h5 className="flow-text">{this.state.data.date.split('-').reverse().join('/')}</h5></div>
         </div>
